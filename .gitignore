@@ -1,0 +1,5 @@
+# build artifacts
+*.o
+explorer
+.build/
+.DS_Store
