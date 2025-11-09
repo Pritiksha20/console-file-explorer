@@ -5,6 +5,7 @@ User can manage files & folders directly through terminal like Linux commands.
 
 Features / Commands Supported
 Command	Description
+```
 ls [-a] [path]	List files and directories (show hidden if -a)
 cd [path]	Change current directory
 pwd	Show current working directory
@@ -19,26 +20,30 @@ info <file>	Show file information
 clear	Clear screen
 help	Show command list
 exit	Quit program
+```
 Requirements
 
 Linux or WSL
 
 g++ compiler (C++17 or later)
-
+```
 make
-
+```
 Install required tools (if not installed):
-
+```
 sudo apt update
 sudo apt install -y build-essential make git
-
+```
 Build Project
+```
 make
-
+```
 Run Program
+```
 ./explorer
-
+```
 Example Demo
+```
 [exp] /home/user $ mkdir test
 [exp] /home/user $ cd test
 [exp] /home/user/test $ touch file1.txt
@@ -46,14 +51,17 @@ Example Demo
 file1.txt
 [exp] /home/user/test $ search file
 /home/user/test/file1.txt
+```
 
 Project Structure
+```
 .
 ├── main.cpp
 ├── explorer.cpp
 ├── explorer.hpp
 ├── Makefile
 └── README.md
+```
 
 Purpose of this Project
 
