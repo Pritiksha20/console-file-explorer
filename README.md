@@ -1,5 +1,10 @@
 Console File Explorer (C++ / Linux)
 
+
+Console based File Explorer application written in C++ for Linux.
+Supports common file operations such as ls, cd, cp, mv, rm, mkdir, touch, chmod, search and info.
+Works like a mini shell using the C++17 filesystem library.
+
 This project is a console based file explorer built using C++17 filesystem library.
 User can manage files & folders directly through terminal like Linux commands.
 
